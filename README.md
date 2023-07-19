@@ -22,6 +22,8 @@ Simply put, this app has 2 parts to it, a client go binary, and a flask python s
 
 Generally I've wanted to do a project like this for some time now. This isn't the most original or technical malware, but I think it's a great project to get accustomed to such an architecture. I wrote it in Go simply because it crossed my mind and i said why not. It's an interesting language with some cool stuff, but I'll need to see more of it to be convinced. As for the serverside I went with Flask, because I finally wanted to approach it from a programming perspective. I wanted to know how to use it as I think it's a strong and easy way to implement web apps for someone who likes python.
 
+Lastly, honourable mention goes to [this](https://www.upsightsecurity.com/post/slurping-discord-tokens) article for how to handle the discord tokens.
+
 ## Installation
 
 For the client, install [go](https://go.dev/doc/install)
