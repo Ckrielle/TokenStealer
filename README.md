@@ -66,6 +66,8 @@ py run.py
 
 ![](/screenshots/img5.png)
 
+This is for local use. For remote, the malware will be at `http://<attacker-ip:port>/static/stealer.exe`
+
 ## Ideas
 
 I don't think I'll touch this again. But here are some ideas:
