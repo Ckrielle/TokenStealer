@@ -1,0 +1,25 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.table {
+    border: 2px solid #fff;
+}
+
+.table th,
+.table td {
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+}
+
+h1,
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}

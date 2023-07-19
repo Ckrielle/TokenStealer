@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TokenStealer - Login</title>
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/login.css') }}" rel="stylesheet">
+        <style>
+            body {
+                background-color: #000;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>Log In</h2>
+                        </div>
+                        <div class="card-body">
+                            <form method="post" action="">
+                                <div class="form-group">
+                                    <label for="token">Secret Token:</label>
+                                    <input type="text" class="form-control" name="token" placeholder="Enter your secret token" value="{{ request.form.token }}">
+                                </div>
+                                <div class="inline-elements">
+                                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                                    {% if error %}
+                                        <div class="error-message">
+                                            {{ error }}
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    </body>
+</html>

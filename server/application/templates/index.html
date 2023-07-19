@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TokenStealer - Home</title>
+        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+        <style>
+            body {
+                background-color: #000;
+                color: #fff;
+            }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='img/you_wouldnt.png')}}" alt="You wouldn't download a car">
+            </div>
+            <div class="link-container">
+                <a href="{{ url_for('.logs') }}">Malware Logs</a>
+            </div>
+        </div>
+        <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    </body>
+</html>

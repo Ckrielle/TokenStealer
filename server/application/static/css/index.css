@@ -1,0 +1,26 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.link-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link-container a {
+    color: #fff;
+    text-decoration: none;
+}
